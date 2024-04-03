@@ -45,8 +45,8 @@ const [password,setPassword]=useState('')
         />
       <StatusBar style="auto" />
       <RegularButton onPress={()=>{
-        alert("You pressed me!")
-      }}>Press me</RegularButton>
+        alert("clicked!")
+      }}>Click !!!</RegularButton>
     </MainContainer>
   );
 }
